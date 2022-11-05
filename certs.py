@@ -11,7 +11,8 @@ for satir in dosya:
    width, height = img.size 
    draw = ImageDraw.Draw(img) 
    widthloc=(width / 2)-location
-   draw.text((widthloc, 900), satir, font=font, align="center" ,anchor="mm", fill =(0, 0, 0)) 
+   heightloc=height/2
+   draw.text((widthloc, heightloc), satir, font=font, align="center" ,anchor="mm", fill =(0, 0, 0)) 
    img.show() 
    dosya_adi="k-"+satir+".png" 
    img.save(dosya_adi)
