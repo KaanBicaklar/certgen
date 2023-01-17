@@ -1,0 +1,1 @@
+# sertifika görseli oluşturma programı
